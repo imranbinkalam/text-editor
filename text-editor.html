@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Text Editor</title>
+     <script src="https://kit.fontawesome.com/c2fd669467.js" crossorigin="anonymous"></script>
+     <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-sky-400">
+     <section>
+          <h1 class="text-center text-3xl font-semibold font-mono">Imran Text Editor</h1>
+          <div class="w-9/12 mx-auto border-2 border-black rounded bg-sky-200 grid items-center p-4 gap-y-4">
+               <div class="flex justify-between items-center p-3">
+                    <div class="flex gap-5">
+                         <button id="bold-btn"><i class="fa-solid fa-bold"></i></button>
+                         <button id="italic-btn"><i class="fa-solid fa-italic"></i></button>
+                         <button id="underline-btn"><i class="fa-solid fa-underline"></i></button>
+                    </div>
+                    <div class="flex gap-5">
+                         <button id="left-btn"><i class="fa-solid fa-align-left"></i></button>
+                         <button id="right-btn"><i class="fa-solid fa-align-right"></i></button>
+                         <button id="center-btn"><i class="fa-solid fa-align-center"></i></button>
+                    </div>
+                    <div class="flex gap-5">
+                         <input type="number" name="" id="font-size-input" placeholder="17" class="border-none w-10 rounded-md bg-white placeholder:text-black">
+                         <button id="cases-btn" class="font-semibold text-lg">aA</button>
+                         <input type="color" name="" id="color-input">
+                         <button id="color-btn" class=""><i class="fa-solid fa-check"></i></button>
+                    </div>
+               </div>
+               <hr class="border-2 border-black ">
+               <textarea id="textarea" name="text-input" cols="" rows="" class="p-2 w-ful h-80"></textarea>
+          </div>
+     </section>
+
+    <script src="document.js"></script>
+</body>
+</html>
